@@ -116,7 +116,7 @@ body {
   color: rgba(255,255,255,.85);
   font-size: 1.25rem;
   margin-bottom: 2.5rem;
-  max-width: 400px; /* Adjust to 500px if you add more lines later */
+  max-width: 550px; /* Adjust to 500px if you add more lines later */
 }
 
 /* Invisible spacer to block out the right side of the screen */

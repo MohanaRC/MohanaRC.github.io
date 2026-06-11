@@ -86,7 +86,7 @@ body {
   padding-bottom: 6rem;
   background:
     linear-gradient(rgba(30,20,10,.55), rgba(30,20,10,.55)),
-    url('https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=1400&q=80') center/cover no-repeat;
+    url('site_bgd1.png') center/cover no-repeat;
 }
 
 .hero-content {

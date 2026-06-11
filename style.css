@@ -82,18 +82,24 @@ body {
   position: relative;
   min-height: 100vh;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding-bottom: 6rem;
-  background:
-    url('site_bgd3.png') center/cover no-repeat;
+  align-items: center; /* Keeps text centered vertically with your background photo */
+  background: url('site_bgd3.png') center/cover no-repeat;
+}
+
+/* Two-column grid setup */
+.hero-container {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Splits screen 50/50 */
+  gap: 4rem;
+  align-items: center;
+  width: 100%;
 }
 
 .hero-content {
-  position: relative;
-  z-index: 2;
-  padding: 2rem 8rem;
-  max-width: 700px;
+  max-width: 100%;
+  padding: 0;
 }
 
 .hero-content h1 {
@@ -106,11 +112,17 @@ body {
 
 .hero-sub {
   color: rgba(255,255,255,.85);
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin-bottom: 2.5rem;
-  max-width: 380px;
+  max-width: 400px; /* Adjust to 500px if you add more lines later */
 }
 
+/* Invisible spacer to block out the right side of the screen */
+.hero-spacer {
+  background: transparent;
+  width: 100%;
+  height: 1px; /* Minimal height just to hold the grid column structural space */
+}
 /* ── STORY ── */
 .story {
   background: var(--cream);

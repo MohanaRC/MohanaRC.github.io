@@ -83,7 +83,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center; /* Keeps text centered vertically with your background photo */
-  background: url('site_bgd3.png') center/cover no-repeat;
+  background: url('site_bg4.png') center/cover no-repeat;
 }
 
 /* Two-column grid setup */

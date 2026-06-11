@@ -83,15 +83,16 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: flex-end;
+  justify-content: flex-start;
   padding-bottom: 6rem;
   background:
-    url('site_bgd2.png') center/cover no-repeat;
+    url('site_bgd3.png') center/cover no-repeat;
 }
 
 .hero-content {
   position: relative;
   z-index: 2;
-  padding: 2rem 4rem;
+  padding: 2rem 8rem;
   max-width: 700px;
 }
 

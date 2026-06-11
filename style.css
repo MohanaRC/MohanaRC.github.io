@@ -102,12 +102,20 @@ body {
   padding: 0;
 }
 
+/* ── ADD THIS LINE to shift everything slightly left ── */
+  margin-left: -2rem; 
+}
+
+/* ── HERO MAIN HEADING ── */
+
 .hero-content h1 {
   font-family: var(--font-display);
   font-size: clamp(2.8rem, 6vw, 5rem);
   color: var(--white);
   line-height: 1.1;
   margin-bottom: 1rem;
+/* ── CHANGE THIS LINE to match your subtitle color ── */
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .hero-sub {
